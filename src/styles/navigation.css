@@ -22,11 +22,13 @@ nav {
 }
 
 .links a {
+  color: #fff;
   cursor: pointer;
   padding-right: 25px;
+  text-decoration: none;
 }
 
-.active {
+.links .active {
   color: #0ea5e9;
 }
 
