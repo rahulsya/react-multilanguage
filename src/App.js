@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/app.css";
+
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <Navigation />
+      <div className="container">
+        <h3>React Js </h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          React is a JavaScript library for building user interfaces. Learn what
+          React is all about on our homepage or in the tutorial.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </div>
+    </>
   );
 }
 
