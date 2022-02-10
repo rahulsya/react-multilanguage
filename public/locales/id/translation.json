@@ -1,0 +1,9 @@
+{
+    "menu":{
+        "home":"Utama",
+        "features":"Fitur",
+        "about":"Tentang",
+        "support":"Dukungan"
+    },
+    "content":"React adalah pustaka javascript untuk membuat tampilan antarmuka pengguna, Belajar semua hal tentang react pada halaman utama kami atau di tutorial."
+}

@@ -1,17 +1,15 @@
 import "./styles/app.css";
 
 import Navigation from "./components/Navigation";
-
+import { useTranslation } from "react-i18next";
 function App() {
+  const { t } = useTranslation();
   return (
     <>
       <Navigation />
       <div className="container">
         <h3>React Js </h3>
-        <p>
-          React is a JavaScript library for building user interfaces. Learn what
-          React is all about on our homepage or in the tutorial.
-        </p>
+        <p>{t("content")}</p>
       </div>
     </>
   );
